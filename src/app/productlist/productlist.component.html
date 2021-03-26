@@ -1,0 +1,18 @@
+<div class="container"> 
+ <table border="1px" width="100%">
+        <thead class="tbl_head">
+        <tr>
+        <th>productid</th>
+        <th>name</th>
+        <th>qty</th>
+        <th>addtocart</th>
+
+        </tr>
+      </thead>
+<tr *ngFor= "let i of productlist">
+<td>{{i.productid}}</td>
+<td>{{i.name}}</td>
+<td>{{i.qty}}</td>
+<td><button>add to cart</button></td>
+</table>
+</div>

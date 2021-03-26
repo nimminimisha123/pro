@@ -1,0 +1,34 @@
+
+<form action=""  (ngSubmit)="save()"  #myform=ngForm>
+<div>
+<label for="">productid</label>
+</div>
+<div>
+ <input type="text"   class="form-control"  [(ngModel)]=model.productid  name="productid">
+</div>
+<div>
+<label for="">name</label>
+</div>
+<div>
+ <input type="text"  class="form-control" [(ngModel)]=model.name name="name">
+</div>
+ <div>
+ <label for="">price</label>
+</div>
+<div>
+ <input type="number"  class="form-control" [(ngModel)]=model.price  name="price">
+ </div>
+<div>
+ <label for="">Description</label>
+</div>
+<div>
+ <input type="text"  class="form-control" [(ngModel)]=model.description name="description">
+</div>
+
+ <!-- <label for="">qty</label>
+</div>
+<div>
+ <input type="number"  class="form-control" [(ngModel)]=model.qty name="qty">
+</div> -->
+<input type="submit" value="login">
+</form>

@@ -1,0 +1,9 @@
+[{"productid":"1","name":"shampoo"," price":"200","description":"blue","qty":"1"},
+
+{"productid":"2","name":"soap","price":"200","description":"white","qty":"2"},
+
+{"productid":"3","name":"powder"," price":"200"," description":"cream","qty":"3"},
+
+{"productid":"4","name":"maggi"," price":"200"," description":"blue","qty":"1"},
+
+{"productid":"5","name":"chocolate","price":"200"," description":"brown","qty":"1"}]
